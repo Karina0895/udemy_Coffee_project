@@ -1,0 +1,21 @@
+@import '../../styles/variables';
+.banner {
+    font-family: $primary-font;
+    padding: 200px;
+    color: $white-color;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    h1 {
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+    }
+    p {
+        font-size: 24px;
+    }
+}
