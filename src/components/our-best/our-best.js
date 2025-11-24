@@ -1,14 +1,25 @@
 import { Component } from 'react';
 import './our-best.scss';
-import BestBg from '../../images/best-bg.jpg'
+import BestBg from '../../images/best-bg.jpg';
+import products from '../../products';
+import ProductCard from '../product-card/product-card';
 
 
 class OurBest extends Component {
     render() {
+
+        const selectedIds = [2, 3];
+        const selectedProducts = products.filter (item => selectedIds.includes(item.id));
+ 
         return(
             <section className="our-best" style={{backgroundImage: `url(${BestBg})`}}>
                 <div className="container">
                     <h2>Our best</h2>
+                    <div className="products-area">
+                        {selectedProducts.map(item => (
+                            <ProductCard key={item.id} item={item}></ProductCard>
+                        ))}
+                    </div>
                 </div>
             </section>
         );
