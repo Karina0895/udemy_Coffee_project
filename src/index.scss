@@ -1,1 +1,31 @@
-@import './styles/variables'
+@import './styles/variables';
+
+body {
+    font-family: $primary-font;
+    color: $black-color;
+    margin: 0;
+
+    .container {
+        width: 850px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 40px; 
+        width: 100%;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 24px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+ 
+}

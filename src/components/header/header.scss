@@ -1,34 +1,12 @@
 @import '../../styles/variables';
 
 .header {
-  font-family: $primary-font;
   position: absolute;
   top: 30px;
   left: 140px;
   right: 0;
-  nav ul {
-    list-style: none;
-    display: flex;
-    font-size: 12px;
-    gap: 20px;
-    align-items: center;
 
-    li a {
-      color: $white-color;
-      text-decoration: none;
-      transition: color 0.3s;
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-    }
-
-    li a.active {
-      color: #b47b48;
-      font-weight: bold;
-    }
-
-    li a:hover {
-      color: #b47b48;
-    }
+  li a {
+    color: $white-color;
   }
 }

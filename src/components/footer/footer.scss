@@ -1,0 +1,13 @@
+@import '../../styles/variables';
+
+footer {
+    padding: 40px;
+
+    nav ul {
+        justify-content: center;
+
+        li a {
+            color: $black-color;
+        }
+    }
+}

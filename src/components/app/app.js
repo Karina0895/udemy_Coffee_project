@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import routes from '../../routes';
 import Header from '../header/header';
 import Banner from '../head-banner/head-banner'
+import Footer from '../footer/footer';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
             <Route key={path} path={path} element={element}/>
           ))}
         </Routes>
+        <Footer />
       </Router>
     );
   }
