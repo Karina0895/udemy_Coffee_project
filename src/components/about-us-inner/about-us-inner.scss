@@ -1,0 +1,12 @@
+.about-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+
+    .descr-area {
+        width: 40%;
+        text-align: center;
+        margin-left: 60px;
+    }
+}

@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import AboutUs from '../about-us/about-us';
+import AboutUs from '../about-us-home/about-us-home';
 import OurBest from '../our-best/our-best';
 
 

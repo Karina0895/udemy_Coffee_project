@@ -8,7 +8,7 @@ import ProductCard from '../product-card/product-card';
 class OurBest extends Component {
     render() {
 
-        const selectedIds = [2, 3];
+        const selectedIds = [1, 4, 6];
         const selectedProducts = products.filter (item => selectedIds.includes(item.id));
  
         return(
@@ -17,7 +17,7 @@ class OurBest extends Component {
                     <h2>Our best</h2>
                     <div className="products-area">
                         {selectedProducts.map(item => (
-                            <ProductCard key={item.id} item={item}></ProductCard>
+                            <ProductCard key={item.id} item={item} showCountry={false}></ProductCard>
                         ))}
                     </div>
                 </div>

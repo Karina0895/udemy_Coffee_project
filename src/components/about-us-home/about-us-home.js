@@ -1,7 +1,5 @@
 import { Component } from 'react';
-import './about-us.scss'
-
-
+import './about-us-home.scss';
 
 class AboutUs extends Component {
     render() {

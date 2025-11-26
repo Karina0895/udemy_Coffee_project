@@ -1,0 +1,25 @@
+@import '../../styles/variables';
+
+.search-area {
+
+    label {
+        font-size: 14px;
+        margin-right: 15px;
+    }
+
+    input {
+        color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        font-size: 12px;
+        border: none;
+        box-shadow: $shadow;
+        border-radius: 4px;
+        width: 180px;
+    }
+
+    ::-webkit-input-placeholder {
+        font-family: $primary-font;
+        text-align: center;
+    }
+    
+}

@@ -9,7 +9,7 @@ class ProductCard extends Component {
                 <img src={item.image} alt={item.title} />
                 <h3>{item.title}</h3>
                 {showCountry && <p className="country">{item.country}</p>}
-                <p className="price">{item.price}</p>
+                <p className="price">{item.price}$</p>
             </div>
         )
     }
